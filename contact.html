@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | MICROINFO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">MICRO<span>INFO</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="tech-stack.html">Tech Stack</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="careers.html">Careers</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <section class="section">
+    <div class="section-title">
+      <h2>Let's Work Together 📩</h2>
+      <p>Have a project in mind? Send us an inquiry and our team will get back to you within 24 hours.</p>
+    </div>
+
+    <div style="max-width: 600px; margin: 0 auto; background-color: var(--card-bg); padding: 2.5rem; border-radius: 10px; border: 1px solid var(--border-color);">
+      <form>
+        <div class="form-group">
+          <label for="client-name">Your Name</label>
+          <input type="text" id="client-name" required placeholder="Rahul Khandbhor">
+        </div>
+        <div class="form-group">
+          <label for="client-email">Email Address</label>
+          <input type="email" id="client-email" required placeholder="rahul@gmail.com">
+        </div>
+        <div class="form-group">
+          <label for="project-type">Project Scope</label>
+          <select id="project-type">
+            <option>Web Development</option>
+            <option>Mobile App Development</option>
+            <option>Cloud Infrastructure / DevOps</option>
+            <option>Dedicated Developer Team</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Project Details</label>
+          <textarea id="message" rows="5" required placeholder="Tell us briefly about your project goals and requirements..."></textarea>
+        </div>
+        <button type="submit" class="btn" style="width: 100%;">Send Project Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 <strong>MICROINFO</strong> Innovations. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
